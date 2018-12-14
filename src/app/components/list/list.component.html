@@ -1,0 +1,8 @@
+<section class="animated fadeIn contenedor" style="display: flex; flex-flow: row; flex-wrap: wrap">
+
+    <div *ngFor="let muelle of muelles" style="max-width: 1000px; min-width: 400px;">
+        {{muelle.nombre}}
+        <app-chart [ejeX]="muelle.labels" [datasets]="muelle.data">
+        </app-chart>
+    </div>
+</section>
