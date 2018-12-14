@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { ListComponent } from './components/list/list.component';
+import { WeatherChartComponent } from './components/weather-chart/weather-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChartComponent,
-    ListComponent
+    ListComponent,
+    WeatherChartComponent
   ],
   imports: [
     BrowserModule,

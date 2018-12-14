@@ -28,9 +28,7 @@ export class ListComponent implements OnInit {
         nombre: `Muelle ${index * Math.ceil(Math.random() * 7)}`,
         labels: this.getDates(moment().subtract(20, 'day'), moment()),
         data: [
-          this.randomData(),
-          this.randomData(),
-          this.randomData(),
+          this.randomData()
         ]
       });
     }
